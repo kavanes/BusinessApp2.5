@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f0e8"
+    tools:context="com.example.android.businessapp2.MainActivity">
+
+    <ImageView
+        android:id="@+id/kayaks"
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        android:src="@drawable/kayak"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kevin's Kayaking Adventures"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 Water Way, Surf City, CA "
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#004c4c"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(888)-555-1234"
+        android:textSize="20sp"
+        android:layout_above="@id/address"
+        android:textColor="#004c4c"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.kka.com"
+        android:textSize="20sp"
+        android:layout_above="@id/phone"
+        android:textColor="#004c4c"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paddle through Paradise!"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#004c4c"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/title"
+        android:paddingTop="30dp"
+        android:paddingLeft="0dp"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us for booking"
+        android:textColor="#004c4c"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:paddingLeft="5dp"
+        android:layout_above="@id/website" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Come join us for a 3 hour excursion where we'll paddle through crystal clear water and observe marine life through a glass bottom kayak!"
+        android:layout_below="@id/kayaks"
+        android:textColor="#004c4c"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        />
+
+</RelativeLayout>
